@@ -28,7 +28,7 @@
     <i><table name="new_table_name" onCreate="migrateDataFromAnotherTable(old_table_name)"></i>
 3. Don’t forget to generate a 'db_schema_whitelist.json' file.</br>
     <i><b>bin/magento setup:db-declaration:generate-whitelist --module-name=LearningPath_DBSchema</b></i>
-3.	Run setup upgrade command</br>
+4. Run setup upgrade command</br>
      <i><b>bin/magento setup:upgrade</b></i>
 
 
