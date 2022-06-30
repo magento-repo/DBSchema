@@ -13,8 +13,8 @@
 
 # Drop a table
 
-1. Remove all lines of code related to your table in db_schema.xml file
-2.	Don’t forget to generate a 'db_schema_whitelist.json' file.</br>
+1.  Remove all lines of code related to your table in db_schema.xml file
+2.  Don’t forget to generate a 'db_schema_whitelist.json' file.</br>
     <i><b>bin/magento setup:db-declaration:generate-whitelist --module-name=LearningPath_DBSchema</b></i>
 3.	Run setup upgrade command</br>
      <i><b>bin/magento setup:upgrade</b></i>
@@ -22,13 +22,13 @@
 
 # Rename a table 
 
-1. New table will create and old table will delete while renaming the table using declarative schema
-2. Use 'onCreate' attribute on table declarative 
+1.  New table will create and old table will delete while renaming the table using declarative schema
+2.  Use 'onCreate' attribute on table declarative 
     <i><b>onCreate="migrateDataFromAnotherTable(old_table_name)</b></i>
     <i><table name="new_table_name" onCreate="migrateDataFromAnotherTable(old_table_name)"></i>
-3. Don’t forget to generate a 'db_schema_whitelist.json' file.</br>
+3.  Don’t forget to generate a 'db_schema_whitelist.json' file.</br>
     <i><b>bin/magento setup:db-declaration:generate-whitelist --module-name=LearningPath_DBSchema</b></i>
-4. Run setup upgrade command</br>
+4.  Run setup upgrade command</br>
      <i><b>bin/magento setup:upgrade</b></i>
 
 
