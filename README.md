@@ -30,7 +30,7 @@
     <i><b>bin/magento setup:db-declaration:generate-whitelist --module-name=LearningPath_DBSchema</b></i>
 3.	Run setup upgrade command</br>
      <i><b>bin/magento setup:upgrade</b></i>
-4. Please note that migrating data from another table and renaming columns at the same time is not supported.
+
 
 # Add a column to table
 
